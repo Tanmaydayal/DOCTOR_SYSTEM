@@ -61,8 +61,11 @@ const [flag, setflag] = useState('')
     
 }
   return (
+    
     <div>
+     
       <Helmet>
+        
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
@@ -109,7 +112,7 @@ const [flag, setflag] = useState('')
 
         <link rel="stylesheet" href="assets/css/style.css" />
       </Helmet>
-
+ 
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <Link to="index.html" className="navbar-brand p-0">
           <h1 className="m-0 text-primary">

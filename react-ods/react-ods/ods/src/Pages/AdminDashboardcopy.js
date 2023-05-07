@@ -47,6 +47,16 @@ export const AdminDashboardcopy = () => {
     
     <div className>
     <div>
+    <div className="login-banner">
+        <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+          <Link to="index.html" className="navbar-brand p-0">
+            <h1 className="m-0 text-primary">
+              <Link to="/AdminDashboardcopy">
+                {" "}
+                <h1> Welcome to Admin Dashboard  '{user.name}' </h1>
+              </Link>
+            </h1>
+          </Link>
     <Helmet>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -95,16 +105,7 @@ export const AdminDashboardcopy = () => {
         <link rel="stylesheet" href="assets/css/style.css" />
       </Helmet>
 
-      <div className="doctor-img">
-        <nav className="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-          <Link to="index.html" className="navbar-brand p-0">
-            <h1 className="m-0 text-primary">
-              <Link to="*">
-                {" "}
-                <h1> Welcome to Admin Dashboard  '{user.name}' </h1>
-              </Link>
-            </h1>
-          </Link>
+    
           <button
             className="navbar-toggler"
             type="button"

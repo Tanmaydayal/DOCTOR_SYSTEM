@@ -37,7 +37,7 @@ export const DoctorDashboard = () => {
               <h1 className="m-0 text-primary">
                 <Link to="/DoctorDashboard ">
                   {" "}
-                  <FaStethoscope /> welcome DR '{user.name}'
+                  <FaStethoscope /> Welcome DR '{user.name}'
                 </Link>
               </h1>
             </Link>
@@ -57,7 +57,7 @@ export const DoctorDashboard = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/listappointment" className="nav-item nav-link">
+                  <Link to="/listappointment/id" className="nav-item nav-link">
                     My Patients
                   </Link>
                 </li>             
